@@ -1,0 +1,5 @@
+Thread_P=3
+Student_Output=0
+Debug=0
+Refresh_Rate=5
+Server_Status=1

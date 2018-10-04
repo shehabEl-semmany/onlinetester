@@ -1,0 +1,42 @@
+body {
+    font-size: 12px;
+    font-family: tahoma;
+}
+
+input {
+    font-family: tahoma;
+}
+
+.line {
+    display: block;
+    border: none;
+    color: #333;
+    background: transparent;
+    border-bottom: 1px dotted black;
+    padding: 5px 2px 0 2px;
+}
+
+.line:focus {
+    outline: none;
+    border-color: #51CBEE;
+}
+
+.inline-link-2 {
+    display: inline-block;
+    border-bottom: 2px dashed rgba(0, 0, 0, 0.9);
+    /* Font styles */
+    text-decoration: none;
+    color: #777;
+}
+
+.inline-link-2:hover {
+    border-bottom-style: dotted;
+}
+
+.inline-link-2:active {
+    border-bottom-style: solid;
+}
+
+.inline-link-2:visited {
+    border-bottom: 2px solid #97CAF2;
+}

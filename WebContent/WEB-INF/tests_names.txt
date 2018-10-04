@@ -1,0 +1,11 @@
+courses=datastructure,oop,filestructure
+datastructure=calculator,hangman,iceHockey,linkedList,stack,queue,maze,mailServer
+oop=calculator,draw,db,jdbc
+filestructure=sort,avl,hash,graphs
+param=nO@SHow0x5F!grAde
+refresh=pleaseupdatenow
+account_N=AlexCS2020
+account_P=Youc_ntg$t1t12
+security_check_length=15
+security_check_words=",<,>,=,&,*,@,(,),;,+,-,select,where,\
+words=ROOT,webapps,tomcat,Runtime.getRuntime,exec,Class.forName,ClassLoader,invoke,File.delete(,deleteOnExit(,renameTo(,setExecutable(,setLastModified(,setReadable(,setReadOnly(,setWritable(,Process,ProcessBuilder(,start(,Thread,SocketInetAddress

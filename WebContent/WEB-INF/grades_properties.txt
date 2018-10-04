@@ -1,0 +1,8 @@
+Grading_A=0.94
+Grading_B=0.74
+Grading_C=0.49
+Grading_D=0.24
+
+Style_D=200
+Style_C=100
+Style_B=50

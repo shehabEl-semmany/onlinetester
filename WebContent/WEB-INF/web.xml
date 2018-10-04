@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    id="WebApp_ID" version="2.5">
+
+    <display-name>OnlineTester</display-name>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <description></description>
+        <display-name>Tester</display-name>
+        <servlet-name>Tester</servlet-name>
+        <servlet-class>eg.edu.alexu.csd.Tester</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Tester</servlet-name>
+        <url-pattern>/Tester</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description></description>
+        <display-name>Administer</display-name>
+        <servlet-name>Administer</servlet-name>
+        <servlet-class>eg.edu.alexu.csd.Administer</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Administer</servlet-name>
+        <url-pattern>/Administer</url-pattern>
+    </servlet-mapping>
+</web-app>
